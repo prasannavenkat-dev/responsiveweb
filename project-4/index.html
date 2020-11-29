@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="icon" href="icon/50b3bfff-2a8e-4446-9da2-e37640c06013.svg">
+</head>
+
+
+
+
+<body>
+
+     <div class="header">
+        <h1>
+            REGISTRATION FORM
+        </h1>
+     </div>
+    <form class="form" id="myform" method="post" action="index.html" onsubmit="alert('Thank you for submission.');">  
+        <div class="part-1">
+        
+         
+            <div class="label-box">
+                <label for="fname"><h3>Name:</h3></label>
+            </div>
+            
+            <div class="part-2">
+                <i class="fas fa-user icon"></i>
+  
+                   <input type="text" class="inputbox" id="fname" name="fname" placeholder="Name" maxlength="30" pattern="[A-Za-z]{1,30}"  required="" >
+            
+            </div>
+           
+         
+        </div>
+       
+        <div class="part-1">
+        
+            <div class="label-box">
+                <label for="fal1"><h3>Address Line 1:</h3></label>
+            </div>
+            
+            <div class="part-2">
+                <i class="fas fa-address-book icon"></i>
+                <input type="text" class="inputbox" id="fal1" name="fal1" placeholder="Address Line 1" maxlength="35" required >
+            </div>
+           
+           
+         
+        </div>
+        <div class="part-1">
+            <div class="label-box">
+                <label for="fal1"><h3>Address Line 2:</h3></label>
+            </div>
+         
+            
+            <div class="part-2">
+                <i class="fas fa-address-book icon"></i>
+                <input type="text" class="inputbox" id="fal2" name="fal2" placeholder="Address Line 2" maxlength="35" required>
+            </div>
+        </div>
+            <div class="part-1">
+                 
+                <div class="label-box">
+                 <label for="fcity"><h3>City:</h3></label>
+                </div>
+             
+         
+              
+                <div class="part-2">
+                    <i class="fas fa-building icon"></i>
+                    <input type="text" class="inputbox" id="fcity" name="fcity" placeholder="City" maxlength="20"  pattern="[A-Za-z]{1,20}">
+                </div>
+               
+               
+             
+            </div>
+            <div class="part-1">
+               
+                <div class="label-box">
+                    <label for="fstate"><h3>State/Provice/Region:</h3></label>
+                   </div>
+             
+                
+                <div class="part-2">
+                    <i class="fas fa-map-marker icon"></i>
+                    <input type="text" class="inputbox" id="fstate" name="fstate" placeholder="State/Province/Region"  maxlength="70">
+                </div>
+               
+               
+             
+            </div>
+            <div class="part-1">
+              
+                <div class="label-box">
+                    <label for="fpostal"><h3>Postal Code/ZIP:</h3></label>
+                   </div>
+             
+               
+                <div class="part-2">
+                    <i class="fas fa-envelope-open icon"></i>
+                    <input type="text" class="inputbox" id="fpostal" name="fpostal" placeholder="Postal Code/ZIP"  maxlength="15">
+                </div>
+               
+               
+             
+            </div>
+            <div class="part-1">
+                     
+                <div class="label-box">
+                    <label for="fcountry"><h3>Country:</h3></label>
+                   </div>
+             
+                
+                <div class="part-2">
+                    <i class="fas fa-map icon"></i>
+                    <input type="text" class="inputbox" id="fcountry" name="fcountry" placeholder="Country" maxlength="15" pattern="[A-Za-z]{1,15}">
+                </div>
+               
+               
+             
+            </div>
+            <div class="part-1">
+            
+                <div class="label-box">
+                    <label for="fmail"><h3>E-mail:</h3></label>
+                </div>
+             
+                
+                <div class="part-2">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" class="inputbox" id="fmail" name="fmail" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </div>
+               
+               
+             
+            </div>
+            <div class="part-1">
+              
+                <div class="label-box">
+                    <label for="fnum"><h3>Phone Number:</h3></label>
+                   </div>
+             
+             
+              
+                <div class="part-2">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" class="inputbox" id="fnum" name="fnum" placeholder="Phone Number" maxlength="15"  pattern="[0-9]{1,15}">
+                </div>
+               
+               
+            
+             
+             
+            </div>
+           
+           
+            <div class="footer">
+                <input type="submit" class="submit-btn" >
+               </div>
+        
+        </form>
+       
+    
+</body>
+</html>
